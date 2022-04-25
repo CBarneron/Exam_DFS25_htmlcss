@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../src/style.sass"
+	],
+	"sourcesContent": [
+		"* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box; }\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CAAG"
+}

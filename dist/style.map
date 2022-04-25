@@ -5,8 +5,8 @@
 		"../src/style.sass"
 	],
 	"sourcesContent": [
-		"* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box; }\n"
+		"* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box; }\n\n.header {\n    background-color: #000;\n    color: #fff; }\n"
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CAAG"
+	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CAAG;;;AAE3B,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,IAAI;CAAG"
 }

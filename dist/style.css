@@ -1,17 +1,17 @@
-/* line 1, ../../../Documents/GitHub/Exam_DFS25_htmlcss/src/style.sass */
+/* line 1, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-/* line 6, ../../../Documents/GitHub/Exam_DFS25_htmlcss/src/style.sass */
+/* line 6, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
 .header {
   background-color: #000;
   color: #fff;
 }
 
-/* line 9, ../../../Documents/GitHub/Exam_DFS25_htmlcss/src/style.sass */
+/* line 9, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
 a {
   text-decoration: none;
   text-decoration-color: #fff;

@@ -5,7 +5,7 @@
 		"../src/style.sass"
 	],
 	"sourcesContent": [
-		"* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box; }\n\n.header {\n    background-color: #000;\n    color: #fff; }\na {\n    text-decoration: none;\n    text-decoration-color: #fff;\n    color: #fff; }\n\n"
+		"* {\n  padding: 0;\n  margin: 0;\n  box-sizing: border-box; }\n\n.header {\n    background-color: #000;\n    color: #fff; }\na {\n    text-decoration: none;\n    text-decoration-color: #fff;\n    color: #fff; }\n\n\n\n"
 	],
 	"names": [],
 	"mappings": ";AAAA,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;CAAG;;;AAE3B,AAAA,OAAO,CAAC;EACJ,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,IAAI;CAAG;;;AAClB,AAAA,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;EACrB,qBAAqB,EAAE,IAAI;EAC3B,KAAK,EAAE,IAAI;CAAG"

@@ -5,17 +5,39 @@
   box-sizing: border-box;
 }
 
-/* line 6, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
+/* line 5, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
+header {
+  height: 75px;
+}
+
+/* line 7, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
 .header {
   background-color: #000;
   color: #fff;
 }
 
-/* line 9, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
+/* line 10, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
+.header div {
+  height: 100%;
+}
+
+/* line 12, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
 a {
   text-decoration: none;
   text-decoration-color: #fff;
   color: #fff;
+}
+
+/* line 17, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
+.imgcard {
+  height: 100%;
+}
+
+/* line 20, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.sass */
+.card {
+  color: #000;
+  text-align: center;
+  height: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */

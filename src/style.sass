@@ -1,15 +1,49 @@
+$max-cols: 12
 * 
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
+header
+  height: 75px;
 .header
     background-color: #000;
-    color: #fff;
+    color: #fff;    
+.header div 
+  height: 100%;
 a 
     text-decoration: none;
     text-decoration-color: #fff;
     color: #fff;
+.imgcard
+  height: 100%;
+
+.card 
+  color: #000;
+  text-align: center;
+  height: 250px;
+
+@for $i from 1 to $max-cols+1 
+ .col- $i 
+        width: 100% / $max-cols * $i            
+    .grid- $i 
+        display: grid
+        grid-template-columns: repeat( $i, 1fr )
+        $a: $i+1
+        @for $n from 1 to $a 
+            .grid-col-  $n 
+                grid-column:  $n /  $a            
+            @for $y from $n to $a 
+                .grid-col- $n- $y 
+                    grid-column-start: $n
+                    grid-column-end: $y                                
+                .grid-col- $n- $y + 1 
+                    grid-column-start: $n
+                    grid-column-end: $y + 1
+                
+            
+        
+  
+
 
 
     

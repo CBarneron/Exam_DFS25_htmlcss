@@ -1,159 +1,237 @@
 /* line 1, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  box-sizing: border-box;
+  color: #000; }
 
-/* line 3, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 8, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 header {
-  height: 75px; }
-
-/* line 6, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
-.header {
+  height: 35%;
   background-color: #000;
-  color: #fff; }
-
-/* line 9, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
-.header div {
-  height: 100%;
+  color: #fff;
   display: inline-block;
-  flex-direction: column-reverse; }
+  text-align: center; }
 
-/* line 14, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 16, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 a {
   text-decoration: none;
   text-decoration-color: #fff;
-  color: #fff; }
+  color: #fff;
+  display: block;
+  position: relative; }
 
-/* line 19, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
-.imgcard {
-  height: 100%; }
+/* line 24, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+.container {
+  display: block; }
 
-/* line 22, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 28, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .card {
-  color: #000;
   text-align: center;
-  display: inline-block;
-  height: 250px;
   margin: 5px; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 33, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+.imgcard {
+  width: 100%; }
+
+/* line 37, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+.pA {
+  color: #000; }
+
+/* line 41, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+.aside {
+  display: inline-block;
+  align-content: center; }
+
+/* line 46, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+.ul {
+  align-content: center; }
+
+/* line 50, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+.imgaside {
+  width: 100%; }
+
+/* line 66, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+ul {
+  list-style-type: none;
+  align-content: center; }
+
+/* line 71, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+li {
+  align-items: center; }
+
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-1 {
   display: grid;
   grid-template-columns: repeat(1, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-4 {
   display: grid;
   grid-template-columns: repeat(4, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-5 {
   display: grid;
   grid-template-columns: repeat(5, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-6 {
   display: grid;
   grid-template-columns: repeat(6, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-7 {
   display: grid;
   grid-template-columns: repeat(7, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-8 {
   display: grid;
   grid-template-columns: repeat(8, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-9 {
   display: grid;
   grid-template-columns: repeat(9, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-10 {
   display: grid;
   grid-template-columns: repeat(10, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-11 {
   display: grid;
   grid-template-columns: repeat(11, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
 
-/* line 32, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 76, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .grid-12 {
   display: grid;
   grid-template-columns: repeat(12, 1fr); }
 
-/* line 40, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+/* line 85, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
 .wrap div {
   height: 100px;
   border: 2px solid black; }
+
+@media screen and (min-width: 768px) {
+  /* line 92, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .container {
+    display: grid; }
+  /* line 96, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .card {
+    text-align: center;
+    margin: 5px; }
+  /* line 101, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .imgcard {
+    width: 100%; }
+  /* line 105, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .pA {
+    color: #000; }
+  /* line 109, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .aside {
+    display: inline-block; }
+  /* line 113, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .imgaside {
+    width: 100%; }
+  /* line 117, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .aside,
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (min-width: 1024px) {
+  /* line 127, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .container {
+    display: inline-block; }
+  /* line 131, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .card {
+    text-align: center;
+    margin: 5px; }
+  /* line 136, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .imgcard {
+    width: 100%; }
+  /* line 140, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .pA {
+    color: #000; }
+  /* line 144, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .aside {
+    display: inline-block; }
+  /* line 148, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .grid {
+    grid-template-columns: repeat(3, 1fr); }
+  /* line 152, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .imgaside {
+    width: 100%; }
+  /* line 156, E:/Document/GitHub/Exam_DFS25_htmlcss/src/style.scss */
+  .gridlaptop {
+    display: grid;
+    grid-template-columns: 1fr 25%; } }
 
 /*# sourceMappingURL=style.css.map */

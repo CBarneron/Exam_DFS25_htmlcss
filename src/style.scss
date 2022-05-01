@@ -1,53 +1,160 @@
-*{
-    padding: 0;margin: 0;}
-  header{
-  height: 75px;
-    }
-  .header{
-    background-color: #000;
-    color: #fff;}    
-  .header div{ 
-  height: 100%;
-  display: inline-block;
-  flex-direction: column-reverse;
-  }
-a {
-    text-decoration: none;
-    text-decoration-color: #fff;
-    color: #fff;
-  }
-.imgcard{
-  height: 100%;
-}
-.card{ 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   color: #000;
-  text-align: center;
+}
+
+header {
+  height: 35%;
+  background-color: #000;
+  color: #fff;
   display: inline-block;
-  height: 250px;
-  margin:5px;
+  text-align: center;
 }
-    @for $i from 1 to 13 {
-        
-    
-    .grid-#{$i} {
-        display: grid ;
-        grid-template-columns: repeat( $i ,1fr );
-        }
 
-
-    .col-#{$i} {$calcul:100/12 *$i;
-            }
-        .wrap div {
-               
-            height: 100px;
-            border: 2px solid black;
-        }
+a {
+  text-decoration: none;
+  text-decoration-color: #fff;
+  color: #fff;
+  display: block;
+  position: relative;
 }
-                
-            
-        
-  
+
+.container {
+  display: block;
+}
+
+.card {
+  text-align: center;
+  margin: 5px;
+}
+
+.imgcard {
+  width: 100%;
+}
+
+.pA {
+  color: #000;
+}
+
+.aside {
+  display: inline-block;
+  align-content: center;
+}
+
+.ul {
+  align-content: center;
+}
+
+.imgaside {
+  width: 100%;
+}
 
 
+// .pA{
+//   color: #000;
+// }
 
-    
+// .aside{
+//   display: grid;
+// }
+// .imgaside{
+//   height: 100%; 
+// }
+
+ul {
+  list-style-type: none;
+  align-content: center;
+}
+
+li {
+  align-items: center;
+}
+
+@for $i from 1 to 13 {
+  .grid-#{$i} {
+    display: grid;
+    grid-template-columns: repeat($i, 1fr);
+  }
+
+  .col-#{$i} {
+    $calcul: 100/12 *$i;
+  }
+
+  .wrap div {
+    height: 100px;
+    border: 2px solid black;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: grid;
+  }
+
+  .card {
+    text-align: center;
+    margin: 5px;
+  }
+
+  .imgcard {
+    width: 100%;
+  }
+
+  .pA {
+    color: #000;
+  }
+
+  .aside {
+    display: inline-block;
+  }
+
+  .imgaside {
+    width: 100%;
+  }
+
+  .aside,
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+}
+
+@media screen and (min-width:1024px) {
+  .container {
+    display: inline-block;
+  }
+
+  .card {
+    text-align: center;
+    margin: 5px;
+  }
+
+  .imgcard {
+    width: 100%;
+  }
+
+  .pA {
+    color: #000;
+  }
+
+  .aside {
+    display: inline-block;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .imgaside {
+    width: 100%;
+  }
+
+  .gridlaptop {
+    display: grid;
+    grid-template-columns: 1fr 25%;
+  }
+}
